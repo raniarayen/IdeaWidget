@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:widget="http://www.netvibes.com/ns/"
+>
+  <!-- Copyright 2021 , Dassault Systemes. All rights reserved. -->
+  <head>
+    <title>Idea Widget</title>
+    <meta name="author" content="Dassault Systèmes" />
+    <meta name="brand" content="3DExperience" />
+    <meta name="description" content="Idea Widget" />
+    <meta name="keywords" content="Idea Widget" />
+    <meta name="autoRefresh" content="0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../c/UWA/assets/css/standalone.css"
+    />
+    <link rel="stylesheet" href="./IdeaWidget.css" />
+    <link rel="stylesheet" type="text/css" href="../UIKIT/UIKIT.css" />
+    <script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+    <script src="./dist/assets/dragula.min.js"></script>
+    <script src="./dist/assets/ellipsis.min.js"></script>
+    <script src="./dist/assets/jkanban.js"></script>
+    <script src="./IdeaWidget.js"></script>
+    <widget:preferences></widget:preferences>
+    <script>
+      widget.addEvent("onLoad", createKanban);
+      widget.addEvent("onSearch", createKanban);
+      widget.addEvent("onResetSearch", createKanban);
+    </script>
+  </head>
+
+  <body>
+    <div id="myContainer"></div>
+    <div id="myKanban"></div>
+  </body>
+</html>

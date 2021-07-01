@@ -1,0 +1,427 @@
+{
+  "ideaTemplatesOptions": [
+    {
+      "value": {
+        "0": {
+          "type": "TextInput",
+          "value": "CSE channel",
+          "placeholder": "CSE channel"
+        },
+        "1": {
+          "type": "Text",
+          "innerText": "Account Name"
+        },
+        "2": {
+          "type": "alert"
+        },
+        "3": {
+          "type": "TextInput",
+          "placeholder": "Type in the Account Name",
+          "required":"true"
+        },
+        "4": {
+          "type": "Text",
+          "innerText": "Type of sale"
+        },
+        "5": {
+          "type": "Select",
+          "placeholder": "Select  the Type of sale",
+          "required":"true",
+          "options": [
+            { "value": "Box Moving" },
+            { "value": "Value Engagement" },
+            { "value": "Light Value Engagement" }
+        ]
+        },
+        "6": {
+          "type": "TextInput",
+          "placeholder": "Type in the DSx Client Sale ID"
+        },
+        "7": {
+          "type": "Text",
+          "innerText": "MyCE ID"
+        },
+        "8": {
+          "type": "TextInput",
+          "placeholder": "Type in the MyCE ID",
+          "required":"true"
+        },
+        "12": {
+          "type": "TextInput",
+          "placeholder": "Type in the TSE Number"
+        },
+        "13": {
+          "type": "Text",
+          "innerText": "Offer (proposed solution)"
+        },
+        "14": {
+          "type": "TextInput",
+          "placeholder": "Type in the Offer",
+          "required":"true"
+        },
+        "16": {
+          "type": "TextInput",
+          "placeholder": "Type in the PLC Revenue"
+        },
+        "18": {
+          "type": "TextInput",
+          "placeholder": "Type in the Consulting Revenue"
+        },
+        "20": {
+          "type": "TextInput",
+          "placeholder": "Type in the Service Revenue"
+        },
+        "22": {
+          "type": "TextInput",
+          "placeholder": "Type in the Opportunity Phase"
+        },
+        "23": {
+          "type": "Text",
+          "innerText": "Close Quarter"
+        },
+        "24": {
+          "type": "TextInput",
+          "required":"true",
+          "placeholder": "Type in the Close Quarter"
+        },
+        "26": {
+          "type": "Select",
+          "placeholder": "Select  the Must Win Account",
+          "options": [
+              { "value": "Yes" },
+              { "value": "No" }
+          ]
+        },
+        "27": {
+          "type": "Text",
+          "innerText": "Priority"
+        },
+        "28": {
+          "type": "Select",
+          "placeholder": "Select  the Priority",
+          "required":"true",
+          "options": [
+            { "value": "1" },
+            { "value": "2" },
+            { "value": "3" },
+            { "value": "4" },
+            { "value": "5" }
+        ]
+        },
+        "29":{
+          "type": "Autocomplete",
+          "showSuggestsOnFocus": "true",
+          "placeholder": "Type in the Leader",
+          "required":"true"
+        }
+      },
+      "label": "CSE channel"
+    },
+    {
+      "value": {
+        "0": {
+          "type": "TextInput",
+          "value": "CPE channel"
+        },
+        "1": {
+          "type": "Text",
+          "innerText": "Account Name"
+        },
+        "2": {
+          "type": "alert"
+        },
+        "3": {
+          "type": "TextInput",
+          "placeholder": "Type in the Account Name",
+          "required":"true"
+        },
+        "4": {
+          "type": "Text",
+          "innerText": "Type of sale"
+        },
+        "5": {
+          "type": "Select",
+          "placeholder": "Select  the Type of sale",
+          "required":"true",
+          "options": [
+            { "value": "Box Moving" },
+            { "value": "Value Engagement" },
+            { "value": "Light Value Engagement" }
+        ]
+        },
+        "6": {
+          "type": "Text",
+          "innerText": "Partner Name"
+        },
+        "7": {
+          "type": "TextInput",
+          "placeholder": "Type in the Partner Name",
+          "required":"true"
+        },
+        "8": {
+          "type": "Text",
+          "innerText": "MyCE ID"
+        },
+        "9": {
+          "type": "TextInput",
+          "required":"true",
+          "placeholder": "Type in the MyCE ID"
+        },
+        "10": {
+          "type": "TextInput",
+          "placeholder": "Type in the TSE Number"
+        },
+        "11": {
+          "type": "Text",
+          "innerText": "Offer (proposed solution)"
+        },
+        "12": {
+          "type": "TextInput",
+          "placeholder": "Type in the Offer"
+        },
+        "13": {
+          "type": "Text",
+          "innerText": "PLC/YLC Revenue"
+        },
+        "14": {
+          "type": "TextInput",
+          "required":"true",
+          "placeholder": "Type in the PLC/YLC Revenue"
+        },
+        "15": {
+          "type": "Text",
+          "innerText": "Close Quarter"
+        },
+        "16": {
+          "type": "TextInput",
+          "required":"true",
+          "placeholder": "Type in the Close Quarter"
+        },
+        "17":{
+          "type": "Autocomplete",
+          "showSuggestsOnFocus": "true",
+          "placeholder": "Type in the PSM",
+          "required":"true"
+        },
+        "18":{
+          "type": "Autocomplete",
+          "showSuggestsOnFocus": "true",
+          "multiSelect": "true",
+          "placeholder": "Type in the TS.Team",
+          "required":"true"
+        }
+      },
+      "label": "CPE channel"
+    },
+    {
+      "value": {
+        "0": {
+          "type": "TextInput",
+          "value": "Marketing"
+        },
+        "1": {
+          "type": "Text",
+          "innerText": "Marketing Activity"
+        },
+        "2": {
+          "type": "alert"
+        },
+        "3": {
+          "type": "TextInput",
+          "placeholder": "Type in the Marketing Activity",
+          "required":"true"
+        },
+        "4": {
+          "type": "TextInput",
+          "placeholder": "Type in the Activity Type"
+        },
+        "5": {
+          "type": "Text",
+          "innerText": "Activity Format"
+        },
+        "6": {
+          "type": "Select",
+          "required":"true",
+          "placeholder": "Select  the Activity Format",
+          "options": [
+            { "value": "Online" },
+            { "value": "Offline" }
+        ]
+        },
+        "7": {
+          "type": "Text",
+          "innerText": "Activity Dates"
+        },
+        "8": {
+          "type": "TextInput",
+          "placeholder": "Type in the Activity Dates",
+          "required":"true"
+        },
+        "9": {
+          "type": "TextInput",
+          "placeholder": "Type in the DS Participation"
+        },
+        "10": {
+          "type": "TextInput",
+          "placeholder": "Type in the Activity Venue/Platform"
+        },
+        "11": {
+          "type": "TextInput",
+          "placeholder": "Type in the TSE Number"
+        },
+        "12": {
+          "type": "TextInput",
+          "placeholder": "Type in the Target Accounts"
+        },
+        "13": {
+          "type": "TextInput",
+          "placeholder": "Type in the Website/Webpage"
+        },
+        "14": {
+          "type": "Text",
+          "innerText": "Key Topic"
+        },
+        "15": {
+          "type": "TextInput",
+          "placeholder": "Type in the Key Topic",
+          "required":"true"
+        },
+        "16": {
+          "type": "Select",
+          "placeholder": "Select  the Priority",
+          "required":"true",
+          "options": [
+            { "value": "1" },
+            { "value": "2" },
+            { "value": "3" },
+            { "value": "4" },
+            { "value": "5" }
+        ]
+        },
+        "17":{
+          "type": "Autocomplete",
+          "showSuggestsOnFocus": "true",
+          "placeholder": "Type in the TS.Team",
+          "multiSelect": "true",
+          "required":"true"
+        },
+        "18":{
+          "type": "Autocomplete",
+          "showSuggestsOnFocus": "true",
+          "placeholder": "Type in the Client Executive",
+          "required":"true"
+        },
+        "19":{
+          "type": "Autocomplete",
+          "showSuggestsOnFocus": "true",
+          "placeholder": "Type in the Marketing Leader",
+          "required":"true"
+        }
+      },
+      "label": "Marketing"
+    },
+    {
+      "value": {
+        "field0": {
+          "type": "Text",
+          "innerText": "Add new idea"
+        },
+        "field1": {
+          "type": "alert"
+        },
+        "field2": {
+          "type": "TextInput",
+          "required":"true",
+          "placeholder": "Type in the idea title"
+        },
+        "field3": {
+          "type": "Text",
+          "innerText": "Idea"
+        },
+        "field4": {
+          "type": "TextInput",
+          "required":"true",
+          "multiline": "true",
+          "rows": "4",
+          "placeholder": "Type in your idea"
+        }
+      },
+      "label": "Add new idea - text only"
+    },
+    {
+      "value": {
+        "field0": {
+          "type": "Text",
+          "innerText": "Add new idea"
+        },
+        "field1": {
+          "type": "alert"
+        },
+        "field2": {
+          "type": "TextInput",
+          "required":"true",
+          "placeholder": "Type in the idea title"
+        },
+        "field3": {
+          "type": "Text",
+          "innerText": "Add new idea"
+        },
+        "field5": {
+          "type": "TextInput",
+          "required":"true",
+          "placeholder": "Type in the idea title"
+        },
+        "field6": {
+          "type": "Text",
+          "innerText": "Idea"
+        },
+        "field7": {
+          "type": "File",
+          "required":"true",
+          "id": "file-loader-input",
+          "buttonClassName": "primary",
+          "placeholder": "Pin your files",
+          "buttonText": "Select files"
+        }
+      },
+      "label": "Add idea with file"
+    },
+    {
+      "value": {
+        "field0": {
+          "type": "Text",
+          "innerText": "Add new idea"
+        },
+        "field1": {
+          "type": "alert"
+        },
+        "field2": {
+          "type": "TextInput",
+          "required":"true",
+          "placeholder": "Type in the idea title"
+        },
+        "field3": {
+          "type": "Text",
+          "innerText": "Idea"
+        },
+        "field4": {
+          "type": "Date",
+          "required":"true",
+          "placeholder": "Select a date"
+        },
+        "field5": {
+          "type": "Text",
+          "innerText": "Idea"
+        },
+        "field6": {
+          "type": "TextInput",
+          "required":"true",
+          "multiline": "true",
+          "rows": "4",
+          "placeholder": "Type in your idea"
+        }
+      },
+      "label": "Add an idea with a date"
+    }
+  ]
+}
